@@ -4,62 +4,268 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Layout Lending Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Oswald:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- feather icon  -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <!-- Header -->
-    <header>
-        <nav class=" navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <!-- <header> -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div>
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link active" aria-current="page" href="#">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown link
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+
+                </div>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- </header> -->
+    <!-- Header -->
+
+    <!-- Breadcrumb -->
+    <div class="bcrumb py-5 ">
+        <h1 class="my_h1 text-center py-5">Archives</h1>
+        <div class="d-flex justify-content-center">
+            <hr class="">
+        </div>
+    </div>
+    <!-- Breadcrumb -->
+
+
+
+    <main>
+        <!-- Blog Section  -->
+        <div class="container-fluid">
+
+            <div class=" container-fluid blog_card">
+                <div class=" row">
+
+                    <section class=" col-lx-9 col-lg-9 col-md-8 col-sm-8 col-xs-12 ">
+                        <div>
+                            <div class="d-flex ">
+                                <p class="my_pre_title_link">estate planning</p>
+                                <h4 class="my_h4 ps-3">| June 18, 2023</h4>
+                                <i data-feather="circle"></i>
+
+                            </div>
+                            <h2 class="my_h2">Is an Estate Freeze Something I Should Consider for my business?</h2>
+                            <p class="my_p pt-2">
+                                You own your own business and recently, you’ve heard some talk about estate freezes.
+                                So, what
+                                exactly is an
+                                estate freeze and should you consider implementing one? There are several things that
+                                should
+                                be
+                                considered
+                                but let’s start with what an estate freeze is....
+                            </p>
+
+                            <hr>
+                        </div>
+                        <div class="">
+                            <div class="d-flex ">
+                                <p class="my_pre_title_link">estate planning</p>
+                                <h4 class="my_h4 ps-3">| June 18, 2023</h4>
+                            </div>
+                            <h2 class="my_h2">Is an Estate Freeze Something I Should Consider for my business?</h2>
+                            <p class="my_p pt-2">
+                                You own your own business and recently, you’ve heard some talk about estate freezes.
+                                So, what
+                                exactly is an
+                                estate freeze and should you consider implementing one? There are several things that
+                                should
+                                be
+                                considered
+                                but let’s start with what an estate freeze is....
+                            </p>
+
+                            <hr>
+                        </div>
+                        <div class="">
+                            <div class="d-flex ">
+                                <p class="my_pre_title_link">estate planning</p>
+                                <h4 class="my_h4 ps-3">| June 18, 2023</h4>
+                            </div>
+                            <h2 class="my_h2">Is an Estate Freeze Something I Should Consider for my business?</h2>
+                            <p class="my_p pt-2">
+                                You own your own business and recently, you’ve heard some talk about estate freezes.
+                                So, what
+                                exactly is an
+                                estate freeze and should you consider implementing one? There are several things that
+                                should
+                                be
+                                considered
+                                but let’s start with what an estate freeze is....
+                            </p>
+
+                            <hr>
+                        </div>
+                    </section>
+
+                    <div class="col-md-3 d-block d-sm-none">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                            click
+                        </button>
+                    </div>
+
+                    <aside class="col-lx-3 col-lg-3 col-md-4 col-sm-4 col-xs-12 d-none d-sm-block ">
+
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable
+                            both
+                            scrolling &
+                            backdrop
+                        </button>
+                        <i class="bi bi-arrow-right"></i>
+                        <div class="px-1 py-5">
+                            <h3 class="my_h3">Category</h3>
+                            <ul>
+                                <li class="my-link">Estate planning</li>
+                                <li class="my-link">Life insurance</li>
+                                <li class="my-link">Retirment</li>
+                                <li class="my-link">RRSP</li>
+                                <li class="my-link">taxes</li>
+                                <li class="my-link">TFSA</li>
+                                <li class="my-link">Wealth accumulation</li>
                             </ul>
-                        </li>
-                    </ul>
+                        </div>
+
+                        <hr class="mx-4">
+
+                        <div class="px-3 py-5">
+                            <h3 class="my_h3">Category</h3>
+                            <ul>
+                                <li class="my-link">May 2022</li>
+                                <li class="my-link">March 2022</li>
+                                <li class="my-link">Fabuary 2022</li>
+                                <li class="my-link">January 2022</li>
+                                <li class="my-link">Octuber 2022</li>
+                                <li class="my-link">August 2022</li>
+                                <li class="my-link">May 2022</li>
+                                <li class="my-link">April 2022</li>
+                                <li class="my-link">March 2022</li>
+                                <li class="my-link">Fabuary 2022</li>
+                                <li class="my-link">January 2022</li>
+                                <li class="my-link">December 2022</li>
+                            </ul>
+                        </div>
+                    </aside>
                 </div>
             </div>
-        </nav>
-    </header>
-    <!-- Header -->
-    <section>
-        
-    </section>
+        </div>
 
-    <main></main>
+
+        <!-- sidebar toggle  -->
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling &
+            backdrop
+        </button>
+        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling &
+            backdrop
+        </button> -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title py-5 my-5" id="offcanvasWithBothOptionsLabel"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+
+
+                <!-- content area  -->
+                <aside class="my-5">
+                    <div class="px-1 py-5">
+                        <h3 class="my_h3">Category</h3>
+                        <ul>
+                            <li class="my-link">Estate planning</li>
+                            <li class="my-link">Life insurance</li>
+                            <li class="my-link">Retirment</li>
+                            <li class="my-link">RRSP</li>
+                            <li class="my-link">taxes</li>
+                            <li class="my-link">TFSA</li>
+                            <li class="my-link">Wealth accumulation</li>
+                        </ul>
+                    </div>
+
+                    <hr class="mx-4">
+
+                    <div class="px-3 py-5">
+                        <h3 class="my_h3">Category</h3>
+                        <ul>
+                            <li class="my-link">May 2022</li>
+                            <li class="my-link">March 2022</li>
+                            <li class="my-link">Fabuary 2022</li>
+                            <li class="my-link">January 2022</li>
+                            <li class="my-link">Octuber 2022</li>
+                            <li class="my-link">August 2022</li>
+                            <li class="my-link">May 2022</li>
+                            <li class="my-link">April 2022</li>
+                            <li class="my-link">March 2022</li>
+                            <li class="my-link">Fabuary 2022</li>
+                            <li class="my-link">January 2022</li>
+                            <li class="my-link">December 2022</li>
+                        </ul>
+                    </div>
+                </aside>
+                <!-- content area  -->
+            </div>
+        </div>
+
+        <!-- sidebar toggle  -->
+
+    </main>
+    <!-- Blog Section  -->
+
     <footer></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-    </body>
+</body>
 
-    </html>
+</html>
